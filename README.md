@@ -1,0 +1,7 @@
+# 如何使用我的证书
+1. 下载main.cer、import.ps1、run.bat至同一目录
+2. 确认你的操作系统，暂时只支持Windows系统
+3. 确认你有powershell任意版本
+4. 以管理员权限运行run.bat
+5. 显示导入成功即完成
+> import.ps1实现把main.cer强制添加至受信任的根证书颁发机构
