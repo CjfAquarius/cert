@@ -2,7 +2,7 @@
 # 需要在管理员权限下运行
 
 # 1. 指定证书文件路径
-$certFilePath = "C:\certs\myroot.cer"
+$certFilePath = "main.cer"
 
 # 2. 创建 WScript.Shell 对象用于弹窗
 $wshell = New-Object -ComObject WScript.Shell
